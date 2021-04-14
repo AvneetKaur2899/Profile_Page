@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/Avneet_kaur.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: cursive;
+  }
+
+  body,
+  html {
+    height: 100%;
+    color: rgb(8, 0, 0);
+    line-height: 1.8;
+    font-size: large;
+
+  }
+
+
+
+
+  /* Create a Parallax Effect */
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+    background-image: url('/images/my_photo2.jpg');
+    min-height: 70%;
+  }
+
+  
+
+
+
+  /* Turn off parallax scrolling for tablets and phones */
+  /*@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+ } */
+
+  body {
+    background-image: url(/images/fimg.jpg)
+  }
+</style>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button" style="font-weight: bold" ;>HOME</a>
+      <a href="#aboutme" class="w3-bar-item w3-button w3-hide-small" style="font-weight: bold" ;><i
+          class=" fa fa-user"></i> ABOUT ME</a>
+      <a href="#education" class="w3-bar-item w3-button w3-hide-small" style="font-weight: bold;"><i
+          class="fa fa-th"></i> EDUCATION</a>
+      <a href="#projects" class="w3-bar-item w3-button w3-hide-small" style="font-weight: bold;"><i
+          class="fa fa-th"></i> PROJECTS</a>
+
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="font-weight: bold" ;><i
+          class="fa fa-envelope"></i> CONTACT</a>
+
+      </a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#aboutme" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT ME</a>
+      <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+      <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HEY, <span
+          class="w3-hide-small"> I AM</span> AVNEET KAUR</span>
+    </div>
+  </div>
+
+  <hr>
+  <!--sectiom for about me-->
+
+  <div class="row">
+    <h4 class="display" style="font-weight: bolder; text-align: center;">ABOUT ME</h4>
+
+    <div class="w3-col m6 w3-center w3-padding-large" id="aboutme" style="text-align: center;">
+
+
+      <img src="/images/my_photo1crop.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+        style="width: 400px;" alt="Photo of Me" width="500" height="400" ;>
+
+    </div>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large" id="aboutme" style=" width: 450px;">
+
+      <div style="font-family: cursive; line-height: 30px; text-align: center; font-weight: bold; text-align: center;">
+
+
+
+        I am an enthusiast of learning and
+        grasping new technologies.Always keen
+        to learn something new. Currently, i
+        am working as an intern in Cyber Group
+        Pvt. Ltd. </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Container (education) -->
+  <div class="w3-content w3-container w3-padding-64" id="education">
+    <h3 class="w3-center" style="font-weight: bolder;">EDUCATION</h3>
+    <p class="w3-center">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-8" style="background-color:rgba(216, 205, 205, 0.979); padding: 50px; width: 400px;
+        border: 10px solid rgb(77, 75, 71);
+        margin: 20px;
+        height: 500px;
+        font-variant-position: centre;
+        ">
+          <p>
+          <pre>
+            <div class = "higher_secondary" style="font-size: 150%;font-weight: bold; color:  rgb(7, 5, 0); text-align:left; text-decoration: underline ; font-family: cursive;">HIGHER SECONDARY</div>
+            <div class = "school" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive">Guru Harkrishan Public School</div>
+           <div class = "session" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive">Delhi 2016-2017</div>
+          <div class = "score" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive"> Percentage : 86.6%</div>
+                </pre>
+          </p>
+        </div>
+
+        <div class="col-md-8" ; style="background-color:rgba(216, 205, 205, 0.979); padding: 50px; width: 400px;
+        border: 10px solid  rgb(77, 75, 71);
+        margin: 20px;
+        height: 500px;
+        font-variant-position: centre;">
+
+          <p>
+          <pre>
+            <div class = "college" style="font-size: 200%;font-weight: bold; color:  rgb(5, 3, 0); text-align:left; text-decoration: underline ; font-family: cursive">B.TECH(ECE)</div>
+            <div class = "school" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive">Delhi Technical Campus</div>
+           <div class = "session" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive">2017-2021</div>
+          <div class = "score" style="font-size: 100%; font-style: italic; font-weight: bold;  ;color: rgb(17, 15, 1); text-align:right ; font-family: cursive"> Percentage : 79.6%</div>
+             </pre>
+        </div>
+        </p>
+
+
+
+      </div>
+    </div>
+    <hr>
+    <div class="w3-large w3-center w3-padding-16" id="projects">
+
+      <h4 class="display" style="font-weight: bolder; text-align: center;">PROJECTS</h4>
+
+
+
+
+      <div class="container1">
+        <div class="row" style="text-align: center;">
+          <div class="col-lg-6 mb-4" style=" width: 300px; margin-right:50px; ;">
+
+            <div class="card" style="width: 18rem;;">
+              <img class="card-img-top" src="/images/ES.jfif" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Line Follower Robot</h5>
+                <p class="card-text">The Line Follower Robot is a basic robot that follows a specific path indicated by
+                  a line (usually a black line) having some particular width.It is based on Embedded Systems.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-6 mb-4" style=" width: 200px;">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="/images/ml.jfif" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">House Price Prediction</h5>
+                <p class="card-text">Project of Machine Learning in which Boston House dataset is predicted and then
+                  machine learning algorithms were applied to predict the price of the house.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="row">
+
+            <div class="col-lg-6 mb-4" style=" width: 200px; margin-right: 150px">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/images/python.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Tic Tac Toe</h5>
+                  <p class="card-text">The project aims to ensure the safety of drivers by detecting whether they are
+                    sleepy or not.
+                    It is based on the concept of computer vision and deep learning.</p>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="col-lg-6 mb-4" style=" width: 200px; ;">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/images/compvis.jfif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Driver Drowsiness Detection System</h5>
+                  <p class="card-text">The project aims to ensure the safety of drivers by detecting whether they are
+                    sleepy or not. It is based on the concept of computer vision.
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+
+        <!-- Container (Contact Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+          <h5 class="display" style="font-weight: bolder; text-align: center;">CONTACT</h5>
+
+
+          <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+              <img src="/images/MAPS.jfif" class="w3-image w3-round" style="width:100%;">
+            </div>
+            <div class="w3-col m8 w3-panel">
+              <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Delhi, India<br>
+                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 8750666583<br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+                Email:avneet281999@mail.com<br>
+              </div>
+              <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+              <form action="/action_page.php" target="_blank" style="text-align:center;">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-right w3-section" type="submit">
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+          <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+          <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </div>
+
+        </footer>
+
+        <script>
+          // Modal Image Gallery
+          function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+          }
+
+          // Change style of navbar on scroll
+          window.onscroll = function () { myFunction() };
+          function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+              navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+              navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+          }
+
+          // Used to toggle the menu on small screens when clicking on the menu button
+          function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+              x.className += " w3-show";
+            } else {
+              x.className = x.className.replace(" w3-show", "");
+            }
+          }
+        </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
